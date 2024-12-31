@@ -5,6 +5,8 @@
 body{
   margin: 0;
   padding: 0;
+  font-family: "DM Sans", Sans-serif;
+
 }
 
 @media (min-width: 1400px) {
@@ -15,6 +17,29 @@ body{
 
 a{
   text-decoration: none;
+  margin: auto;
+  font-size: 18px;
+  font-weight: bold;
+  fill: #005D6E;
+  color: #005D6E;
+  background-color: #1A1A1A00;
+  border-style: solid;
+  border-width: 0px 0px 2px 0px;
+  border-color: #E0E0E0;
+  padding: 0px 0px 10px 0px;
+  transition: 0.3s all ease-in-out;
+  width: 118px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  &:hover{
+    color: #005D6E;
+    border-color: #E76817;
+  }
+  svg{
+    font-weight: bold;
+  }
 }
 
 .video-control::-webkit-media-controls {
@@ -55,10 +80,9 @@ a{
 /* End Of Home  */
 /* start Of About-us  */
 .about-us{
-  padding: 80px;
+  padding: 80px 0;
   .info{
     padding: 60px 0;
-    font-family: "DM Sans", Sans-serif;
     h5{
       color: #005D6E;
       font-size: 50px;
@@ -70,30 +94,6 @@ a{
       font-weight: 500;
       margin-bottom: 25px;
     }
-    a{
-      margin: auto;
-      font-size: 18px;
-      font-weight: bold;
-      fill: #005D6E;
-      color: #005D6E;
-      background-color: #1A1A1A00;
-      border-style: solid;
-      border-width: 0px 0px 2px 0px;
-      border-color: #E0E0E0;
-      padding: 0px 0px 10px 0px;
-      transition: 0.3s all ease-in-out;
-      width: 118px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      gap: 10px;
-      &:hover{
-        border-color: #E76817;
-      }
-      svg{
-        font-weight: bold;
-      }
-    }
   }
   .image{
     width: 763.5px;
@@ -103,8 +103,35 @@ a{
 /* end Of About  */
 /* Start Video */
 .video{
-  padding: 80px;
+  padding: 80px 0;
   height: 616.65px;
   overflow: hidden;
 }
 /* End Video */
+/* Start Of Services */
+.services{
+  padding: 80px 0;
+  .heading{
+    h1{
+      font-size: 60px;
+      font-weight: 700;
+      margin-bottom: 25px;
+      color: #005D6E;
+    }
+  }
+  p{
+    font-size: 20px;
+    max-width: 1400px;
+    margin: auto;
+    text-align: left;
+    line-height: 1.9;
+    font-weight: 500;
+    margin-bottom: 25px;
+  }
+  a{
+    &:hover{
+      color: #CCDFE2;
+    }
+  }
+}
+/* End Of Services */
