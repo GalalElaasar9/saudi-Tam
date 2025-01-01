@@ -189,7 +189,7 @@ a{
   .video{
     height: 167px;
     video{
-      width: 85;
+      width: 85%;
     }
   }
 }
