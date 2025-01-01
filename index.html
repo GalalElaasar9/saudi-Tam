@@ -9,10 +9,80 @@
   <link rel="stylesheet" href="./css/bootstrap.min.css">
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link rel="stylesheet" href="./css/style.css">
+  <!-- <link rel="stylesheet" href="./css/style_ar.css"> -->
   <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
 
 </head>
 <body>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="./images/logo.png" width="200px">
+      </a>
+      <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="language-select" id="header-select">
+        <div class="Dropdown">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/0/0d/Flag_of_Saudi_Arabia.svg" alt="Saudi Arabia" id="current-flag-header">
+          <span id="current-language-header">Arabic</span>
+        </div>
+        <div class="options">
+          <div class="option" data-lang="ar">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/0d/Flag_of_Saudi_Arabia.svg" alt="Saudi Arabia">
+            <span>Arabic</span>
+          </div>
+          <div class="option" data-lang="en">
+            <img src="https://upload.wikimedia.org/wikipedia/en/a/ae/Flag_of_the_United_Kingdom.svg" alt="United Kingdom">
+            <span>English</span>
+          </div>
+        </div>
+      </div>
+      
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <li><a href="#" class="nav-link active">HOME</a></li>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              ABOUT US
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">VISION AND MISSION</a></li>
+              <li><a class="dropdown-item" href="#">VALUES AND POLICIES</a></li>
+              <li><a class="dropdown-item" href="#">COMPANY PROFILE</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              RESPONSIBILITIES
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">ENVIROMENTAL POLICY</a></li>
+              <li><a class="dropdown-item" href="#">OCCUPATIONAL HEALTH & SAFETY POLICY</a></li>
+              <li><a class="dropdown-item" href="#">QUALITY POLICY</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <li><a href="#" class="nav-link">OUR SERVICES</a></li>
+          </li>
+          <li class="nav-item">
+            <li><a href="#" class="nav-link">OUR CLIENTS</a></li>
+          </li>
+          <li class="nav-item">
+            <li><a href="#" class="nav-link">JOB'S</a></li>
+          </li>
+          <li class="nav-item">
+            <li><a href="#" class="nav-link">CONTACT US</a></li>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+  </nav>
   <!-- Start Of Home -->
   <section class="home position-relative overflow-hidden">
     <video controls muted loop class="w-100 video-control" autoplay src="./videos/Home-Page.mp4"></video>
@@ -48,7 +118,7 @@
     </section>
   <!-- End Of About -->
   <!-- Start Video -->
-    <section class="video d-flex justify-content-center align-items-center">
+    <section class="Video d-flex justify-content-center align-items-center">
       <video controls muted loop autoplay src="./videos/Blue-and-Yellow-Architecture-and-Construction-Company-Company-YouTube-Video-Intro-1-1.mp4"></video>
     </section>
   <!-- End Video -->
@@ -174,7 +244,7 @@
   </div>
   <!-- end of our-message  -->
   <!-- start our-client  -->
-  <section class="our-clients">
+  <section class="our-clients" style="direction: ltr;">
     <div class="container">
       <div class="heading text-center">
         <h1>Our Clients</h1>
@@ -246,11 +316,28 @@
       </div>
     </div>
   </footer>
+
+  <div class="footer-language-select" id="footer-select">
+    <div class="footer-dropdown">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/0/0d/Flag_of_Saudi_Arabia.svg" alt="Saudi Arabia" id="current-flag-footer">
+      <span id="current-language-footer">Arabic</span>
+    </div>
+    <div class="footer-options">
+      <div class="option" data-lang="ar">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/0d/Flag_of_Saudi_Arabia.svg" alt="Saudi Arabia">
+        <span>Arabic</span>
+      </div>
+      <div class="option" data-lang="en">
+        <img src="https://upload.wikimedia.org/wikipedia/en/a/ae/Flag_of_the_United_Kingdom.svg" alt="United Kingdom">
+        <span>English</span>
+      </div>
+    </div>
+  </div>
   <!-- end footer -->
 
 </body>
   <script class="./js/all.min.js"></script>
-  <script class="./js/bootstrap.bundle.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>  <script src="./js/main.js"></script>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init();

@@ -9,8 +9,6 @@ body{
   overflow-x: hidden;
 }
 
-
-
 @media (min-width: 1400px) {
   .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
       max-width: 1575px;
@@ -44,6 +42,7 @@ a{
   justify-content: center;
   align-items: center;
   gap: 10px;
+  flex-direction: row-reverse;
   &:hover{
     color: #005D6E;
     border-color: #E76817;
@@ -75,7 +74,6 @@ a{
 }
 
 
-
 .navbar{
   background-color: #F3F3F3;
   height: 154px;
@@ -97,8 +95,9 @@ a{
       a{
         margin-bottom: 10px;
         color: #fff;
+        text-align: right;
         &:hover{
-          background-color: #f3f3f3c0;
+          background-color: #f3f3f3b1;
           color: #000;
         }
       }
@@ -164,6 +163,7 @@ a{
 
   .navbar-collapse {
     transition: max-height 0.3s ease-in-out;
+    overflow: hidden;
   }
 
   .navbar-collapse.collapsing {
@@ -216,7 +216,6 @@ a{
   .option:hover {
     background-color: #f0f0f0;
   }
-
   .Dropdown:hover + .options,
 .options:hover {
   display: block;
@@ -233,7 +232,7 @@ a{
     background-color: #005D6E;
     .nav-link{
       color: #fff;
-      padding-left: 15px;
+      padding-right: 15px;
     }
   }
 }
@@ -268,7 +267,6 @@ a{
   }
 }
 
-
 @media (max-width:991px) {
   .navbar{
     height: auto;
@@ -280,6 +278,7 @@ a{
     }
     .container{
       padding: 0 !important;
+      max-width: 767px;
     }
     .navbar-toggler{
       display: block;
@@ -299,11 +298,9 @@ a{
   }
 }
 
-
 /* start Of Home  */
 .home{
   height: 600px;
-  margin-top: 0px;
   &::before{
     content: '';
     position: absolute;
@@ -339,8 +336,8 @@ a{
       object-fit: cover;
     }
     .info{
-      left: 0;
       z-index: 5;
+      left: 0;
       top: 50%;
       /* padding: 0 70px; */
       transform: translateY(-50%);
@@ -353,13 +350,12 @@ a{
       }
       p{
         font-size: 23.8px;
-        text-align: left;
+        text-align: right;
         padding: 0 15px
       }
     }
   }
 }
-
 
 @media (max-width:991px) {
   .home{
@@ -405,7 +401,7 @@ a{
     }
     .info{
       p{
-        text-align: left;
+        text-align: right;
       }
     }
   }
@@ -459,9 +455,10 @@ a{
 }
 @media (max-width:767px) {
   .services{
+    padding: 50px 0;
     p{
       font-size: 20px;
-      text-align: left;
+      text-align: right;
     }
   }
 }
@@ -496,14 +493,13 @@ a{
 
 @media (max-width:767px) {
   .who-are-we{
-    padding: 0;
     .info{
       h5{
         font-size: 40px;
       }
       p{
         font-size: 20px;
-        text-align: left;
+        text-align: right;
       }
     }
     .image{
@@ -678,13 +674,13 @@ a{
         display: flex;
         justify-content: start;
         align-items: center;
-        padding-left: 20px;
+        padding-right: 20px;
         &::before{
           content: '';
           position: absolute;
           height: 12px;
           width: 12px;
-          left: 0;
+          right: 0;
           background-color: #000;
           border-radius: 50%;
         }
@@ -1022,10 +1018,11 @@ footer{
 
 @media (max-width:767px) {
   .footer-language-select {
-    left: 20%;
+    left: 20% !important;
     width: 100px;
   }
 }
+
 @media (max-width:991px) {
   .footer-language-select {
     left: 15%;
