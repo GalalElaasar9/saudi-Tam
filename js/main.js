@@ -74,11 +74,11 @@ if (initialOption) {
     this.classList.toggle('collapsed');
   });
 
-let navbar = document.querySelector('.navbar');
-window.addEventListener("scroll",()=>{
-  if(window.scrollY >= 154){
-    navbar.classList.add('fixed')
-  }else{
-    navbar.classList.remove('fixed')
-  }
-})
+// let navbar = document.querySelector('.navbar');
+// window.addEventListener("scroll",()=>{
+//   if(window.scrollY >= 154){
+//     navbar.classList.add('fixed')
+//   }else{
+//     navbar.classList.remove('fixed')
+//   }
+// })
