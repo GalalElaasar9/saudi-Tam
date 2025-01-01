@@ -169,6 +169,14 @@ a{
   .navbar-collapse.collapsing {
     max-height: 0;
   }
+
+  .dropdown{
+    &:hover{
+      .dropdown-menu{
+        display: block;
+      }
+    }
+  }
   .language-select {
     position: relative;
     width: 150px;
