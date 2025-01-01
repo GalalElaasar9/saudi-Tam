@@ -104,6 +104,7 @@ a{
       }
     }
   }
+  
   .navbar-toggler {
     border: none;
     background: none;
@@ -153,13 +154,13 @@ a{
   }
 
   .navbar-toggler.collapsed .navbar-toggler-icon::before {
-    transform: rotate(45deg);
+    transform: rotate(45deg); 
     top: 0;
   }
 
   .navbar-toggler.collapsed .navbar-toggler-icon::after {
     transform: rotate(-45deg);
-    top: 0;
+    top: 0; 
   }
 
   .navbar-collapse {
@@ -229,7 +230,8 @@ a{
 }
 .navbar {
   .navbar-collapse.show {
-    max-height: none !important;
+    max-height: 350px !important;
+    overflow: auto;
     background-color: #005D6E;
     .nav-link{
       color: #fff;

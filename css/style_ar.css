@@ -228,7 +228,8 @@ a{
 }
 .navbar {
   .navbar-collapse.show {
-    max-height: none !important;
+    max-height: 350px !important;
+    overflow: auto;
     background-color: #005D6E;
     .nav-link{
       color: #fff;
