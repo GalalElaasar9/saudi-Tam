@@ -259,11 +259,13 @@ a{
   .navbar-brand{
     img{
       width: 100px;
+      padding-left: 10px;
     }
   }
   .language-select{
-    width: 100px !important;
+    width: 110px !important;
     order: unset !important;
+    padding-right: 10px;
   }
 }
 
@@ -290,10 +292,12 @@ a{
   .navbar-brand{
     img{
       width: 100px;
+      padding-left: 10px;
     }
   }
   .language-select{
-    width: 100px !important;
+    width: 110px !important;
+    padding-right: 10px;
     order: unset !important;
   }
 }
