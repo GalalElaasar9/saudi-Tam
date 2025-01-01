@@ -79,6 +79,12 @@ a{
 .navbar{
   background-color: #F3F3F3;
   height: 154px;
+  &.fixed{
+    position: fixed; 
+    z-index: 50; 
+    width: 100%;
+    left: 0;
+  }
   .nav-link{
     color: #005D6E;
     font-size: 18px;
@@ -178,7 +184,7 @@ a{
       }
     }
   }
-  
+
   .language-select {
     position: relative;
     width: 150px;
@@ -318,7 +324,7 @@ a{
 /* start Of Home  */
 .home{
   height: 600px;
-  margin-top: 0px;
+  z-index: -1;
   &::before{
     content: '';
     position: absolute;

@@ -314,6 +314,7 @@ a{
 /* start Of Home  */
 .home{
   height: 600px;
+  z-index: -1;
   &::before{
     content: '';
     position: absolute;

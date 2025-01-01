@@ -73,3 +73,12 @@ if (initialOption) {
   document.querySelector('.navbar-toggler').addEventListener('click', function () {
     this.classList.toggle('collapsed');
   });
+
+let navbar = document.querySelector('.navbar');
+window.addEventListener("scroll",()=>{
+  if(window.scrollY >= 154){
+    navbar.classList.add('fixed')
+  }else{
+    navbar.classList.remove('fixed')
+  }
+})
