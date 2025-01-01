@@ -114,7 +114,7 @@ a{
     background: #005D6E;
     display: flex;
     align-items: center;
-    padding-right: 30px;
+    padding-right: 0px;
     display: none;
   }
 
@@ -125,7 +125,7 @@ a{
     background-color: #fff;
     display: inline-block;
     transition: all 0.3s ease;
-    right: -8px;
+    right: 0px;
   }
 
   .navbar-toggler-icon::before,
@@ -136,7 +136,7 @@ a{
     height: 3px;
     background-color: #fff;
     transition: all 0.3s ease;
-    right: -10px;
+    right: 0px;
   }
 
   .navbar-toggler-icon::before {
@@ -318,8 +318,10 @@ a{
   .info{
     z-index: 5;
     top: 50%;
-    /* padding: 0 70px; */
+    padding: 0px 0px 0 70px;
     transform: translateY(-50%);
+    max-width: 1500px;
+    width: 100%;
     h1 , p{
       color: #fff;
     }
