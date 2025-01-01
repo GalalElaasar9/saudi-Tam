@@ -259,10 +259,12 @@ a{
   }
   .navbar-brand{
     img{
+      padding-left: 10px;
       width: 100px;
     }
   }
   .language-select{
+    padding-right: 10px;
     width: 100px !important;
     order: unset !important;
   }
@@ -290,10 +292,12 @@ a{
   }
   .navbar-brand{
     img{
+      padding-left: 10px;
       width: 100px;
     }
   }
   .language-select{
+    padding-right: 10px;
     width: 100px !important;
     order: unset !important;
   }
@@ -1022,7 +1026,7 @@ footer{
 
 @media (max-width:767px) {
   .footer-language-select {
-    left: 20% !important;
+    left: 25% !important;
     width: 100px;
   }
 }
