@@ -9,11 +9,7 @@ body{
   overflow-x: hidden;
 }
 
-/* @media (max-width:767px) {
-  body{
-    overflow-x: hidden;
-  }
-} */
+
 
 @media (min-width: 1400px) {
   .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {

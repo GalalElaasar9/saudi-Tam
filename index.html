@@ -261,6 +261,9 @@
         var splide = new Splide( '#splide2', {
           type   : 'loop',
           autoplay:true,
+          speed: 500,
+          interval: 1000,
+          easing    : 'cubic-bezier(0.25, 1, 0.5, 1)',
           perPage: 4,
           perMove: 1,
           breakpoints: {
