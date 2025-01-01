@@ -260,6 +260,7 @@
     document.addEventListener( 'DOMContentLoaded', function() {
         var splide = new Splide( '#splide2', {
           type   : 'loop',
+          autoplay:true,
           perPage: 4,
           perMove: 1,
           breakpoints: {
@@ -267,7 +268,7 @@
               perPage: 1,
             },
             991: {
-              perPage: 3,
+              perPage: 2,
             },
           }
         }).mount();

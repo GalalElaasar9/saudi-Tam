@@ -182,7 +182,7 @@ a{
   height: 616.65px;
   overflow: hidden;
   video{
-    width: 75%;
+    width: 66%;
   }
 }
 @media (max-width:767px) {
@@ -552,7 +552,7 @@ a{
       object-fit: contain;
     }
   }
-  .splide__arrows{
+  .splide__arrows,.splide__pagination {
     display: none;
   }
 }
@@ -565,9 +565,6 @@ a{
       img{
         width: 100%;
       }
-    }
-    .splide__arrows{
-      display: none;
     }
   }
 }
