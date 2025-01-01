@@ -8,10 +8,8 @@
   <link rel="stylesheet" href="./css/all.min.css">
   <link rel="stylesheet" href="./css/bootstrap.min.css">
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-  <link rel="stylesheet" href="./css/style.css">
-  <!-- <link rel="stylesheet" href="./css/style_ar.css"> -->
-  <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
-
+  <!-- <link rel="stylesheet" href="./css/style.css"> -->
+  <link rel="stylesheet" href="./css/style_ar.css">
 </head>
 <body>
   <!-- Start Of Nav -->
@@ -40,13 +38,16 @@
         </div>
       </div>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0" data-aos="zoom-in">
           <li class="nav-item">
-            <li><a href="./index.html" class="nav-link active">HOME</a></li>
+            <li><a href="./index.html" class="nav-link">HOME</a></li>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link" href="#">
               ABOUT US
+            </a>
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="dropdown-icon"></i>
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
               <li><a class="dropdown-item" href="#">VISION AND MISSION</a></li>
@@ -55,11 +56,14 @@
             </ul>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link" href="./responsibilities.html">
               RESPONSIBILITIES
             </a>
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="dropdown-icon"></i>
+            </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">ENVIROMENTAL POLICY</a></li>
+              <li><a class="dropdown-item" href="./environmental-policy.html">ENVIROMENTAL POLICY</a></li>
               <li><a class="dropdown-item" href="#">OCCUPATIONAL HEALTH & SAFETY POLICY</a></li>
               <li><a class="dropdown-item" href="#">QUALITY POLICY</a></li>
             </ul>
@@ -81,185 +85,43 @@
     </div>
   </nav>
   <!-- End Of Nav -->
-  <!-- Start Of Home -->
-  <section class="home position-relative overflow-hidden">
-    <video controls muted loop class="w-100 video-control" autoplay src="./videos/Home-Page.mp4"></video>
+  <!-- start company history  -->
+  <section class="company-history">
     <div class="container">
-      <div class="info position-absolute">
-        <h1 data-aos="fade-right">Together, We Build Excellence</h1>
-        <p data-aos="fade-left">Saudi Tam General Contracting Company is a contracting company in the Kingdom of Saudi Arabia that specializes in various sectors such as services, construction, operation and maintenance, and Supply of construction services</p>
+      <div class="content">
+        <h1>Company History</h1>
+        <p data-aos="fade-right">A small group of professionals founded SAUDI TAM with the goal of “Building a Stronger &amp;Promising Future” in 2018</p>
+        <p data-aos="fade-left">At present SAUDI TAM employs over 300 people operates one office and has completed a wide range of projects, including commercial, industrial, and residential complexes.</p>
+        <p data-aos="fade-right">Beginning as a subcontractor, SAUDI TAM expanded to send offers Design and Construction services to clie</p>
+        <p data-aos="fade-left">Today SAUDI TAM stands proud as one of the leading EPC Contractors in the region, and continues to set new goals with higher standards in our quest of “Building a Stronger and Promising Future”.</p>
       </div>
     </div>
   </section>
-  <!-- End Of Home -->
-  <!-- Start Of About -->
-    <section class="about-us">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6 col-md-12 col-sm-12">
-            <div class="info">
-              <h5 data-aos="fade-right">About Us</h5>
-              <p>We are honored to present to you a brief summary of our company. We are a national company established in 1440-AH/ 2018 with the second Saudi five year plan for the economic development.</p>
-              <a href="" class="Btn">
-                Read More
-                <span><i class="fa-solid fa-arrow-right"></i></span>
-              </a>
-            </div>
-          </div>
-          <div class="col-lg-6 col-md-12 col-sm-12">
-            <div class="image overflow-hidden">
-              <img src="./images/About-Us.png" class="w-100">
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  <!-- End Of About -->
-  <!-- Start Video -->
-    <section class="Video d-flex justify-content-center align-items-center">
-      <video controls muted loop autoplay src="./videos/Blue-and-Yellow-Architecture-and-Construction-Company-Company-YouTube-Video-Intro-1-1.mp4"></video>
-    </section>
-  <!-- End Video -->
-  <!-- Start Of Services -->
-    <section class="services">
-      <div class="container">
-        <div class="heading text-center">
-          <h1 data-aos="fade-up">Our Services</h1>
-        </div>
-        <p>Since its establishment, the company has been accomplishing several enormous projects and works for both public and private sectors with the highest specifications and precision in several regions of the Kingdom of Saudi Arabia. GOD willing, The company has been, is and will always be, a leader, renowned and reputed in accomplishing huge projects with high excellence, due to its experience and consideration of safety specifications, efficiency, speed and respect of time of delivery with best standards.</p>
-        <a href="" class="Btn">
-          Read More
-          <span><i class="fa-solid fa-arrow-right"></i></span>
-        </a>
-      </div>
-    </section>
-  <!-- End Of Services -->
-  <!-- Start Of who-are-we -->
-    <section class="who-are-we">
+  <!-- end company history  -->
+  <!-- Start Of ceo-message -->
+    <section class="ceo-message">
       <div class="container">
         <div class="row">
           <div class="col-lg-6 col-md-12 col-sm-12">
             <div class="image overflow-hidden">
-              <img src="./images/who-are-we.png" class="w-100 h-100">
+              <img src="./images/Message-of-CEO-Image.png" data-aos="fade-up" class="w-100 h-100">
             </div>
           </div>
           <div class="col-lg-6 col-md-12 col-sm-12">
             <div class="info">
-              <h5 data-aos="fade-left">Who Are We</h5>
-              <p>We are honored to present to you an overview of our company. We are a national company that was launched in the year 1440 AH / 2018 AD, with its main headquarters in the city of Riyadh, which specialized in working in the field of construction, operation, maintenance and providing manpower. Since our launch, our company has continued to provide its services for five continuous full years, which has helped it develop its business and accumulate its experience year after year. Until the work rules were laid on the best foundations, and every year it added everything new and advanced technically and administratively until it became famous for its efficiency and the efficiency of its technicians and workers, and the  Saudi Tam logo became a symbol of quality, skill and efficiency. It specialized at the beginning of its activity in construction and construction and then developed in its activities. Over time, it excelled in its various services, and with the growth of its capabilities, expertise, and successes in providing high-level services, and with high professionalism through its achievements, Saudi Tam  General Contracting Company became the distinguishing mark and the leading name, and became famous for its long experience and high reputation due to the prominent and huge works it completed throughout the Kingdom. Saudi Arabia Therefore, the great success achieved by Saudi Tam General Contracting Company so far has constituted a strong motivation for the group to establish a number of subsidiary companies, in order to expand and organize its activities and increase its customers.</p>
+              <h5 data-aos="fade-down">CEO Message</h5>
+              <p>The beginning was just a dream, then it comes true thanks to Allah the almighty always and to the efforts of the loyal employees of   Saudi Tam Contracting Company we have crossed the odds and achieved success after success until we reached the forefront of the elite of companies in the kingdom, we did not spare any effort to keep our position in the forefront. The kingdom has accompanied economic development through modern and sophisticated methods that have helped to attract investors and increase the economic activity in the country, so we have been eager to continuously develop to raise the efficiency of the company with the policies and strategic plans we aspire. Since we started in  Saudi Tam Contracting practice our business and reputation grows among our customers as one of the most prominent companies in the kingdom. The quality of performance on all levels and the satisfaction that we feel from our clients are the basis of our success and proud to stand behind it. Our team works in one spirit, each one of them has a strong sense of responsibility and a power to offer the best efforts they can.</p>
             </div>
           </div>
         </div>
       </div>
     </section>
-  <!-- End Of who-are-we -->
-  <!-- strat of vision-lab -->
-  <section class="vision-lab position-relative">
+  <!-- End Of ceo-message -->
+  <!-- strat of Saudi-flag -->
+  <section class="Saudi-flag position-relative">
     <img src="./images/a23ae0_4fbdc9483e874e54aa74b25f40d090f9mv2-1.jpg" class="bg-img w-100 h-100">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-8">
-          <div class="info">
-            <h2>Vision 2030</h2>
-            <p>Saudi Arabia has set a series of ambitious goals as part of its 2030 Vision program. Innovation is at the heart of our values, and we are proud to be supporting the Kingdom’s goals for sustainability, and the creation of jobs and opportunities for Saudi citizens.We are engaging with clients and are involved with some of the most prominent giga projects associated with the 2030 vision initiative. These projects aim to grow and diversify the Saudi Arabian economy, and  Saudi TAM is at the heart of creating the structures and spaces that will make this vision a reality, creating a range of opportunities for talent in the years ahead.This 2030 vision initiative looks to grow the Saudi economy and help the Kingdom to develop its standing on the global stage, and  Saudi TAM is working hard to help to achieve these goals. 						</p>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="image">
-            <img src="./images/v1.png" class="small-img position-absolute" alt="">
-          </div>
-        </div>
-      </div>
-    </div>
   </section>
-  <!-- end of vision-lab -->
-  <!-- strat of vision-tab -->
-  <section class="vision-tab position-relative">
-    <img src="./images/a23ae0_4fbdc9483e874e54aa74b25f40d090f9mv2-1.jpg" class="bg-img w-100 h-100">
-    <div class="container">
-      <div class="d-flex flex-column justify-content-center align-items-start">
-        <div class="info">
-          <h2>Vision 2030</h2>
-          <p>Saudi Arabia has set a series of ambitious goals as part of its 2030 Vision program. Innovation is at the heart of our values, and we are proud to be supporting the Kingdom’s goals for sustainability, and the creation of jobs and opportunities for Saudi citizens.We are engaging with clients and are involved with some of the most prominent giga projects associated with the 2030 vision initiative. These projects aim to grow and diversify the Saudi Arabian economy, and  Saudi TAM is at the heart of creating the structures and spaces that will make this vision a reality, creating a range of opportunities for talent in the years ahead.This 2030 vision initiative looks to grow the Saudi economy and help the Kingdom to develop its standing on the global stage, and  Saudi TAM is working hard to help to achieve these goals. 						</p>
-        </div>
-        <div class="image">
-          <img src="./images/v1.png" class="small-img" alt="">
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- end of vision-tab -->
-  <!-- strat of vision-mobile -->
-  <section class="vision-mobile">
-    <div class="container">
-      <div class="d-flex flex-column justify-content-center align-items-center">
-        <div class="info">
-          <h2>Vision 2030</h2>
-          <p>Saudi Arabia has set a series of ambitious goals as part of its 2030 Vision program. Innovation is at the heart of our values, and we are proud to be supporting the Kingdom’s goals for sustainability, and the creation of jobs and opportunities for Saudi citizens.We are engaging with clients and are involved with some of the most prominent giga projects associated with the 2030 vision initiative. These projects aim to grow and diversify the Saudi Arabian economy, and  Saudi TAM is at the heart of creating the structures and spaces that will make this vision a reality, creating a range of opportunities for talent in the years ahead.This 2030 vision initiative looks to grow the Saudi economy and help the Kingdom to develop its standing on the global stage, and  Saudi TAM is working hard to help to achieve these goals. 						</p>
-        </div>
-        <div class="image">
-          <img src="./images/v1.png" class="small-img" alt="">
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- end of vision-mobile -->
-  <!-- start of strategy -->
-  <section data-aos="fade-up" class="strategy position-relative">
-    <div class="image">
-      <img src="./images/WhatsApp_Image_2023-08-05_at_5.07.34_AM-removebg-preview.png" class="bg-img">
-    </div>
-    <div class="heading text-center position-absolute">
-      <h1>OUR STRATEGY</h1>
-    </div>
-    <div class="container">
-      <div class="info position-absolute">
-        <p>Saudi Tam General Contracting Company Defines Its Strategy And Goals Through: Respecting our clients' priority in markets and different industries</p>
-          <ul class="list">
-            <li>Keeping a flexible organizational structure that connects all the segments of work.</li>
-            <li>Securing incessant quality and availability of resources.</li>
-            <li>Guaranteeing the quality of work and providing the best to our clients.</li>
-            <li>Following up and implementing all new forms of development.</li>
-            <li>Encouraging innovations and technical improvements.            </li>
-            <li>Full commitment to our employees.</li>
-            <li>The implementation of health and safety requirements.</li>
-            <li>Adopting advanced systems that strictly comply with international health and safety requirements.</li>
-          </ul>
-      </div>
-    </div>
-  </section>
-  <!-- end of strategy -->
-  <!-- start of our-message  -->
-  <div class="our-message position-relative">
-    <div class="video">
-      <video controls muted loop class="w-100 video-control" autoplay src="./videos/WhatsApp-Video-2023-10-25-at-2.08.09-AM.mp4"></video>
-    </div>
-    <div class="message position-absolute">
-      <h1>Our Message</h1>
-      <p>Quality and safety are our top priorities that we cannot be complacent about. As for the most important measures of our quality policy, those are: permanent examination of the internal systems of the company, periodic monitoring of all our activities, continuous follow-up of the satisfaction of our customers with the services we provide to them and provision of all safety requirements.
-      </p>
-    </div>
-  </div>
-  <!-- end of our-message  -->
-  <!-- start our-client  -->
-  <section class="our-clients" style="direction: ltr;">
-    <div class="container">
-      <div class="heading text-center">
-        <h1>Our Clients</h1>
-      </div>
-      <div id="splide2" class="splide" aria-labelledby="carousel-heading">
-        <div class="splide__track">
-          <ul class="splide__list">
-            <li class="splide__slide"><img src="./images/PepsiCo-Logo.png" alt=""></li>
-            <li class="splide__slide"><img src="./images/t0nr7sxzcxh2p8dctktm.png" alt=""></li>
-            <li class="splide__slide"><img src="./images/PepsiCo-Logo.png" alt=""></li>
-            <li class="splide__slide"><img src="./images/PepsiCo-Logo.png" alt=""></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- end our-client  -->
+  <!-- end ofSaudi-flag-->
   <!-- start partners  -->
     <section data-aos="fade-down" class="partners">
       <div class="container">
@@ -339,27 +201,5 @@
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init();
-  </script>
-  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
-  <script>
-    document.addEventListener( 'DOMContentLoaded', function() {
-        var splide = new Splide( '#splide2', {
-          type   : 'loop',
-          autoplay:true,
-          speed: 500,
-          interval: 1000,
-          easing    : 'cubic-bezier(0.25, 1, 0.5, 1)',
-          perPage: 4,
-          perMove: 1,
-          breakpoints: {
-            767: {
-              perPage: 1,
-            },
-            991: {
-              perPage: 2,
-            },
-          }
-        }).mount();
-      });
   </script>
 </html>

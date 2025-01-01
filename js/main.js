@@ -74,6 +74,8 @@ if (initialOption) {
     this.classList.toggle('collapsed');
   });
 
+
+// let 
 // let navbar = document.querySelector('.navbar');
 // window.addEventListener("scroll",()=>{
 //   if(window.scrollY >= 154){
