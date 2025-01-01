@@ -244,6 +244,9 @@ a{
 @media (max-width:767px) {
   .who-are-we{
     .info{
+      h5{
+        font-size: 40px;
+      }
       p{
         font-size: 20px;
         text-align: left;
@@ -447,7 +450,7 @@ a{
       top: 13%;
       padding-right: 0;
       p{
-        font-size: 17px;
+        font-size: 18px;
       }
       .list{
         li{
