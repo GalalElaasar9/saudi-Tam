@@ -129,6 +129,7 @@ a{
       }
       p{
         font-size: 24.8px;
+        text-align: left;
       }
     }
   }
@@ -167,6 +168,11 @@ a{
         object-fit: cover;
       }
     }
+    .info{
+      p{
+        text-align: left;
+      }
+    }
   }
 }
 /* end Of About  */
@@ -175,12 +181,15 @@ a{
   padding: 80px 0;
   height: 616.65px;
   overflow: hidden;
+  video{
+    width: 75%;
+  }
 }
 @media (max-width:767px) {
   .video{
     height: 167px;
     video{
-      width: 100%;
+      width: 85;
     }
   }
 }
