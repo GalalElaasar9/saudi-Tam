@@ -1022,7 +1022,7 @@ footer{
 
 @media (max-width:767px) {
   .footer-language-select {
-    left: 20%;
+    left: 20% !important;
     width: 100px;
   }
 }
