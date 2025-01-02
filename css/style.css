@@ -1364,26 +1364,107 @@ footer{
 }
 /* End RESPONSIBILITIES Page */
 
-.environmental-policy{
+
+/* Start environmental-policy Page */
+
+  .environmental-policy{
+    padding: 40px 0px 20px 0;
+    overflow: hidden;
+    .info{
+      padding: 10px 0;
+      h5{
+        color: #005D6E;
+        font-size: 50px;
+        font-weight: 700;
+        margin-bottom: 20px;
+      }
+      p{
+        font-size: 19px;
+        font-weight: 500;
+        margin-bottom: 25px;
+        text-align: justify;
+      }
+    }
+    .image{
+      height: 410px;
+      img{
+        object-fit: cover;
+        height: 100%;
+      }
+    }
+  }
+
+  @media (max-width:767px) {
+    .environmental-policy{
+      padding: 0;
+      .info{
+        h5{
+          font-size: 40px;
+        }
+        p{
+          font-size: 20px;
+          text-align: left;
+        }
+      }
+      .image{
+        height: 200px !important;
+        margin-bottom: 10px;
+        img{
+          height: 100%;
+        }
+      }
+    }
+  }
+  @media (max-width:991px) {
+    .environmental-policy{
+      .image{
+        height: 400px;
+        margin-bottom: 10px;
+        img{
+          height: 100%;
+        }
+      }
+    }
+  }
+/* End environmental-policy Page */
+
+.text{
+  p{
+    text-align: justify;
+    font-size: 18px;
+  }
+}
+
+
+
+
+
+/* Start occupational-health  Page */
+
+
+/* start of occupational-health */
+
+.occupational-health{
   padding: 40px 0px 20px 0;
   overflow: hidden;
   .info{
-    padding: 10px 0;
-    h5{
-      color: #005D6E;
-      font-size: 50px;
-      font-weight: 700;
-      margin-bottom: 20px;
-    }
     p{
-      font-size: 19px;
-      font-weight: 500;
-      margin-bottom: 25px;
+      margin-bottom: 60px;
+      display: flex;
+      align-items: start;
+      gap: 10px;
+      font-size: 20px;
+      justify-content: center;
       text-align: justify;
+      span{
+        font-size: 50px;
+        position: relative;
+        top: -8px;
+      }
     }
   }
   .image{
-    height: 410px;
+    height: 847px;
     img{
       object-fit: cover;
       height: 100%;
@@ -1392,7 +1473,7 @@ footer{
 }
 
 @media (max-width:767px) {
-  .environmental-policy{
+  .occupational-health{
     padding: 0;
     .info{
       h5{
@@ -1400,11 +1481,11 @@ footer{
       }
       p{
         font-size: 20px;
-        text-align: left;
+        text-align: right;
       }
     }
     .image{
-      height: 200px !important;
+      height: 450px !important;
       margin-bottom: 10px;
       img{
         height: 100%;
@@ -1413,9 +1494,9 @@ footer{
   }
 }
 @media (max-width:991px) {
-  .environmental-policy{
+  .occupational-health{
     .image{
-      height: 400px;
+      height: auto;
       margin-bottom: 10px;
       img{
         height: 100%;
@@ -1423,10 +1504,91 @@ footer{
     }
   }
 }
-
-.text{
-  p{
-    text-align: justify;
+/* end of occupational-health */
+/* start img-slider  */
+.imgs-slider{
+  padding: 50px 0;
+  max-width: 700px;
+  width: 100%;
+  margin: auto;
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  .swiper-wrapper{
+    align-items: baseline;
+  }
+  .swiper-slide {
+    text-align: center;
     font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .swiper-slide-active{
+    height: 400px;
+  }
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .swiper {
+    width: 100%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .swiper-slide {
+    background-size: cover;
+    background-position: center;
+  }
+
+  .mySwiper2 {
+    width: 100%;
+  }
+
+  .mySwiper {
+    height: 20%;
+    box-sizing: border-box;
+    padding: 10px 0;
+  }
+
+  .mySwiper .swiper-slide {
+    width: 25%;
+    height: 100%;
+    opacity: 0.4;
+  }
+
+  .mySwiper .swiper-slide-thumb-active {
+    opacity: 1;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .thumbsSlider .swiper-slide{
+    width: 127px;
+    height: 127px;
   }
 }
+@media (max-width:767px) {
+  .thumbsSlider .swiper-slide{
+    width: 110px !important;
+    height: 110px !important;
+  }
+}
+/* end img-slider  */
+
+/* End occupational-health  Page */
+
+
+/* Start quality-policy Page */
+
+/* Start quality-policy Page */

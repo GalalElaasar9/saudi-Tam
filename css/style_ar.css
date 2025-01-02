@@ -1427,3 +1427,148 @@ footer{
     font-size: 18px;
   }
 }
+
+
+
+
+/* start of occupational-health */
+
+.occupational-health{
+  padding: 40px 0px 20px 0;
+  overflow: hidden;
+  .info{
+    p{
+      margin-bottom: 60px;
+      display: flex;
+      align-items: start;
+      gap: 10px;
+      font-size: 20px;
+      justify-content: center;
+      text-align: justify;
+      span{
+        font-size: 50px;
+        position: relative;
+        top: -8px;
+      }
+    }
+  }
+  .image{
+    height: 847px;
+    img{
+      object-fit: cover;
+      height: 100%;
+    }
+  }
+}
+
+@media (max-width:767px) {
+  .occupational-health{
+    padding: 0;
+    .info{
+      h5{
+        font-size: 40px;
+      }
+      p{
+        font-size: 20px;
+        text-align: left;
+      }
+    }
+    .image{
+      height: 450px !important;
+      margin-bottom: 10px;
+      img{
+        height: 100%;
+      }
+    }
+  }
+}
+@media (max-width:991px) {
+  .occupational-health{
+    .image{
+      height: auto;
+      margin-bottom: 10px;
+      img{
+        height: 100%;
+      }
+    }
+  }
+}
+/* end of occupational-health */
+.imgs-slider{
+  padding: 50px 0;
+  max-width: 700px;
+  width: 100%;
+  margin: auto;
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  .swiper-wrapper{
+    align-items: baseline;
+  }
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .swiper-slide-active{
+    height: 400px;
+  }
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .swiper {
+    width: 100%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .swiper-slide {
+    background-size: cover;
+    background-position: center;
+  }
+
+  .mySwiper2 {
+    width: 100%;
+  }
+
+  .mySwiper {
+    height: 20%;
+    box-sizing: border-box;
+    padding: 10px 0;
+  }
+
+  .mySwiper .swiper-slide {
+    width: 25%;
+    height: 100%;
+    opacity: 0.4;
+  }
+
+  .mySwiper .swiper-slide-thumb-active {
+    opacity: 1;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .thumbsSlider .swiper-slide{
+    width: 127px;
+    height: 127px;
+  }
+}
+@media (max-width:767px) {
+  .thumbsSlider .swiper-slide{
+    width: 110px !important;
+    height: 110px !important;
+  }
+}
