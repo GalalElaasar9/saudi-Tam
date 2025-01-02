@@ -1859,3 +1859,83 @@ footer{
 }
 /* end of clients  */
 /* end clients page  */
+
+/* start jobs page */
+/* start of job */
+.job{
+  padding: 50px 0;
+  overflow: hidden;
+  .content{
+    padding: 10px;
+    border: 2px solid #000;
+    .image{
+      height: 357px;
+      img{
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+    .info{
+      padding: 50px 0;
+      h3{
+        font-size: 25px;
+        font-weight: 600;
+        color: #236138;
+        margin-bottom: 25px;
+      }
+      p{
+        text-align: justify;
+        font-size: 18px;
+        margin-bottom: 25px;
+        color: #333333;
+        line-height: 1.7;
+        a{
+          color: #236138;
+          transition: 0.3s all ease-in-out;
+          font-weight: 600;
+          &:hover{
+            color: #E76817;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width:767px) {
+  .job{
+    .content{
+      .image{
+        height: 250px !important;
+      }
+      .info{
+        h3{
+          font-size: 18px !important;
+        }
+        p{
+          text-align: right;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width:991px) {
+  .job{
+    .content{
+      .image{
+        height: 400px;
+      }
+      .info{
+        h3{
+          font-size: 30px;
+        }
+        p{
+          text-align: right;
+        }
+      }
+    }
+  }
+}
+/* end of job */
+/* end jobs page */
