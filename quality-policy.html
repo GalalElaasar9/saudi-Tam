@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>OCCUPATIONAL HEALTH & SAFETY POLICY - Saudi Tam</title>
+  <title>QUALITY POLICY - Saudi Tam</title>
   <link rel="icon" href="./images/logo.png">
   <link rel="stylesheet" href="./css/all.min.css">
   <link rel="stylesheet" href="./css/bootstrap.min.css">
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
   <link rel="stylesheet" href="./css/style.css">
   <!-- <link rel="stylesheet" href="./css/style_ar.css"> -->
 </head>
@@ -138,13 +138,28 @@
       </div>
     </section>
   <!-- End Of quality-policy"> -->
-  
+  <!-- start quality-slider  -->
+  <section class="quality-slider">
+    <div class="container">
+      <div class="content">
+        <div id="quality-slider" class="splide" aria-labelledby="carousel-heading">
+          <div class="splide__track">
+            <ul class="splide__list">
+              <li class="splide__slide" data-aos="zoom-in"><img src="./images/business-man-8429442_1920.jpg" class="w-100" alt=""></li>
+              <li class="splide__slide" data-aos="zoom-in"><img src="./images/businessman-3075839_1920.jpg" class="w-100" alt=""></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end quality-slider  -->
   <!-- start partners  -->
-    <section data-aos="fade-down" class="partners">
-      <div class="container">
-        <div class="images d-flex justify-content-start align-items-center flex-wrap">
-          <img src="./images/vendor-No.10064429-300x300.png" alt="">
-          <img src="./images/Untitled-design-1-300x300.png" alt="">
+  <section data-aos="fade-down" class="partners">
+    <div class="container">
+      <div class="images d-flex justify-content-start align-items-center flex-wrap">
+        <img src="./images/vendor-No.10064429-300x300.png" alt="">
+        <img src="./images/Untitled-design-1-300x300.png" alt="">
           <img src="./images/Untitled-design-300x300.png" alt="">
           <img src="./images/Untitled-design-3-300x300.png" alt="">
         </div>
@@ -213,14 +228,32 @@
   <!-- end footer -->
 
 </body>
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script class="./js/all.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>  <script src="./js/main.js"></script>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init();
   </script>
-  <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-  <!-- stats.js lib -->
-  <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+  <script>
+    document.addEventListener( 'DOMContentLoaded', function() {
+      var splide = new Splide( '#quality-slider', {
+        type   : 'loop',
+        autoplay:true,
+        speed: 5000,
+        // interval: 5000,
+        easing    : 'cubic-bezier(0.25, 1, 0.5, 1)',
+        perPage: 2,
+        perMove: 1,
+        breakpoints: {
+          767: {
+            perPage: 1,
+          },
+          991: {
+            perPage: 2,
+          },
+        }
+      }).mount();
+    });
+  </script>
 </html>

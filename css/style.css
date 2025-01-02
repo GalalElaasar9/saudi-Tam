@@ -1644,6 +1644,43 @@ footer{
   }
 }
 /* end of  quality-policy */
+
+/* start quality-slider */
+.quality-slider{
+  padding: 20px 0;
+  .content{
+    padding: 10px 10px 30px 10px;
+    border: 2px solid#000;
+    .splide__list{
+      gap: 10px;
+    }
+    .splide__slide{
+      img{
+        height: 350px;
+        object-fit: cover;
+      }
+    }
+    .splide__pagination{
+      bottom: -1.4em;
+      /* background-color: red; */
+    }
+    .splide__pagination__page.is-active{
+      background-color: #000;
+    }
+  }
+}
+
+@media (max-width:991px) {
+  .quality-slider{
+    .content{
+      .splide__slide{
+        img{
+          height: 250px;
+          object-fit: cover;
+        }
+      }
+    }
+  }
+}
+/* end quality-slider */
 /* Start quality-policy Page */
-
-
