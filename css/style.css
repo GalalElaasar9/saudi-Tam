@@ -1268,7 +1268,7 @@ footer{
     padding: 34px 0;
     .name{
       h3{
-        color: #005D6E;
+        color: #236138;
       }
     }
     .prev-home{
@@ -1276,9 +1276,9 @@ footer{
       justify-content: end;
       gap: 5px;
       align-items: center;
-      color: #005D6E;
+      color: #236138;
       a{
-        color: #005D6E;
+        color: #236138;
         font-size: 13px;
       }
     }
@@ -1836,3 +1836,40 @@ footer{
 }
 
 /* end Services Page */
+
+/* start clients Page */
+/* start clients  */
+.clients{
+  overflow: hidden;
+  .images{
+    gap: 10.3px;
+    img{
+      width: 256px;
+      height: 175px;
+      flex: 0 0 19.4%;
+    }
+  }
+}
+
+@media (max-width:767px) {
+  .clients{
+    .images{
+      img{
+        flex: 0 0 100% !important;
+      }
+    }
+  }
+}
+
+@media (max-width:991px) {
+  .clients{
+    .images{
+      img{
+        flex: 0 0 49.2%;
+      }
+    }
+  }
+}
+/* end clients  */
+/* end clients Page */
+
