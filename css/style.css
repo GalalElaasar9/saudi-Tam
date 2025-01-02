@@ -2210,7 +2210,7 @@ footer{
 }
 /* end quality-slider */
 
-
+/* start company-profile  */
 .company-prof{
   padding: 40px 0;
   position: relative;
@@ -2258,6 +2258,65 @@ footer{
         p{
           font-size: 18px;
         }
+      }
+    }
+  }
+}
+/* end company-profile  */
+/* start values-policy-text  */
+.values-policy-text{
+  .content{
+    strong{
+      font-size: 20px;
+    }
+    p{
+      margin-top: 5px;
+      font-size: 22px;
+    }
+  }
+}
+@media (max-width:767px) {
+  .values-policy-text{
+    .content{
+      p{
+        font-size: 20px;
+      }
+    }
+  }
+}
+/* end values-policy-text  */
+.values-policy{
+  img{
+    height: 332px;
+    object-fit: cover;
+  }
+  .first , .second , .third{
+    h5 , p{
+      margin-bottom: 25px;
+    }
+    h5{
+      font-weight: 600;
+    }
+    p{
+      font-size: 18px;
+    }
+  }
+}
+
+@media (max-width:767px) {
+  .values-policy{
+    img{
+      height: 264px;
+    }
+    .first , .second , .third{
+      h5 , p{
+        margin-bottom: 25px;
+      }
+      h5{
+        font-weight: 600;
+      }
+      p{
+        font-size: 18px;
       }
     }
   }
