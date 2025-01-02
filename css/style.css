@@ -1590,5 +1590,60 @@ footer{
 
 
 /* Start quality-policy Page */
+/* start of  quality-policy */
 
+.quality-policy{
+  padding: 40px 0px 20px 0;
+  overflow: hidden;
+  .info{
+    p{
+      margin-bottom: 30px;
+      font-size: 20px;
+      text-align: justify;
+    }
+  }
+  .image{
+    height: 847px;
+    img{
+      object-fit: cover;
+      height: 100%;
+    }
+  }
+}
+
+@media (max-width:767px) {
+  .quality-policy{
+    padding: 0;
+    .info{
+      h5{
+        font-size: 40px;
+      }
+      p{
+        font-size: 20px;
+        text-align: right;
+      }
+    }
+    .image{
+      height: 450px !important;
+      margin-bottom: 10px;
+      img{
+        height: 100%;
+      }
+    }
+  }
+}
+@media (max-width:991px) {
+  .quality-policy{
+    .image{
+      height: auto;
+      margin-bottom: 10px;
+      img{
+        height: 100%;
+      }
+    }
+  }
+}
+/* end of  quality-policy */
 /* Start quality-policy Page */
+
+
