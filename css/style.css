@@ -2171,7 +2171,64 @@ footer{
 
 /* end contact page */
 
-/* start quality-slider */
+
+.vision-mission{
+  padding: 50px 0;
+  position: relative;
+  z-index: 20;
+  .content{
+    max-width: 1100px;
+    width: 100%;
+    margin: auto;
+    box-shadow: 0 0 10px #ddd;
+    .vision , .mission{
+      img{
+        height: 367px;
+        object-fit: cover;
+      }
+    }
+    .vision-info , .mission-info{
+      padding: 106px 50px;
+      text-align: center;
+    }
+  }
+  .miss{
+    padding-left: 0;
+  }
+  .visi{
+    padding-right: 0;
+  }
+}
+
+@media (max-width:767px) {
+  .vision-mission{
+    .content{
+      .vision , .mission{
+        img{
+          height: 234px;
+        }
+      }
+    }
+    .miss{
+      padding-left: 12px !important;
+    }
+    .visi{
+      padding-right: 12px !important;
+    }
+  }
+}
+
+@media (max-width:991px) {
+  .vision-mission{
+    .miss{
+      padding-left: 12px !important;
+    }
+    .visi{
+      padding-right: 12px !important;
+    }
+  }
+}
+/* start vision-slider */
 .vision-slider{
   padding: 20px 0;
   .content{
@@ -2196,19 +2253,34 @@ footer{
   }
 }
 
-@media (max-width:991px) {
+
+@media (max-width:767px) {
   .vision-slider{
     .content{
       .splide__slide{
         img{
-          height: 250px;
-          object-fit: cover;
+          height: 150px;
         }
       }
     }
   }
 }
-/* end quality-slider */
+
+@media (max-width:991px) {
+  .vision-slider{
+    .content{
+      .splide__slide{
+        img{
+          height: 150px;
+        }
+      }
+    }
+  }
+}
+/* end vision-slider */
+
+
+
 
 /* start company-profile  */
 .company-prof{
