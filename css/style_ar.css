@@ -2160,3 +2160,56 @@ footer{
 /* end contact page */
 
 /* end contact page */
+
+
+.company-prof{
+  padding: 40px 0;
+  position: relative;
+  z-index: 55;
+  .content{
+    .right , .left{
+      img{
+        height: 478px;
+        object-fit: cover;
+      }
+      p{
+        margin-top: 15px;
+        font-size: 20px;
+        a{
+          color: #005D6E;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width:767px) {
+  .company-prof{
+    padding: 20px 0;
+    .content{
+      .right , .left{
+        img{
+          height: 238px;
+        }
+        p{
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width:991px) {
+  .company-prof{
+    .content{
+      .right , .left{
+        img{
+          height: 238px;
+        }
+        p{
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}
