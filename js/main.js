@@ -62,11 +62,9 @@ document.querySelector('.navbar-toggler').addEventListener('click', function () 
 
 let navbar = document.querySelector('.navbar');
 window.addEventListener("scroll",()=>{
-  if(window.scrollY >= 154){
+  if(window.scrollY >= 10){
     navbar.classList.add('fixed')
   }else{
     navbar.classList.remove('fixed')
   }
 })
-
-

@@ -87,6 +87,7 @@ a{
 .navbar{
   background-color: #F3F3F3;
   height: 154px;
+  transition: 0.5s all ease-in-out;
   &.fixed{
     position: fixed; 
     z-index: 50; 
@@ -453,7 +454,7 @@ a{
       }
       p{
         font-size: 23.8px;
-        text-align: right;
+        text-align: left;
         padding: 0 15px
       }
     }
