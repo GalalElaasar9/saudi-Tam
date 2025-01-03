@@ -1842,6 +1842,7 @@ footer{
   overflow: hidden;
   .images{
     gap: 10.3px;
+    justify-content: end !important;
     img{
       width: 256px;
       height: 175px;
