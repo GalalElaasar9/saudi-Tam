@@ -90,7 +90,7 @@ a{
   transition: 0.5s all ease-in-out;
   &.fixed{
     position: fixed; 
-    z-index: 50; 
+    z-index: 1000; 
     width: 100%;
     left: 0;
   }
